@@ -12,7 +12,7 @@ class Translation(object):
     RENAME_403_ERR = "What Are You Doing?"
     ABS_TEXT = "What Are You Trying To Do,Mate?"
     UPGRADE_TEXT = "CONTACT @jack_of_tg"
-    DOWNLOAD_START = "<b>Downloading to my server</b>"
+    DOWNLOAD_START = "<b>⚡Downloading to my server⚡</b>"
     UPLOAD_START = "<b> ⌛Uplaoding to tg⌛"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry WTF Do You Think! I'll Upload It?"
     AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using Me❤️  join @Zed1Projctz **"
