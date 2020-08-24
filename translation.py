@@ -1,7 +1,12 @@
 class Translation(object):
-    START_TEXT = """ <b>Hello BRUH🙏 NAMASKARAM OR NAMASTHE🙏
-     I AM RENAME BOT TO KNOW MY UPDATION
-      JOIN MY SUPPORT CHANNEL</b>"""
+    START_TEXT = """ <b>I'm A Simple File Renamer Bot With Permanent Thumbnail support!</b>
+
+<b>Send me any Telegram file and reply to that file with /rename NewName.extn</b>
+<b>join my support channel to know my updation"""
+
+   
+
+ 
 
 
     RENAME_403_ERR = "What Are You Doing?"
