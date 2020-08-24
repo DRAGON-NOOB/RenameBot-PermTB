@@ -10,7 +10,7 @@ class Translation(object):
     DOWNLOAD_START = "<b>Downloading</b>"
     UPLOAD_START = "<b> ⌛Uplaoding⌛"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry WTF Do You Think! I'll Upload It?"
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using Me > join @zed1projectz **"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using Me❤️  join @Zed1Projctz **"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds"
     NOT_AUTH_USER_TEXT = "CONTACT @jack_of_tg"
     NOT_AUTH_USER_TEXT_FILE_SIZE = "IF You Got This Message You Should Contact @prgofficial"
