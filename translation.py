@@ -25,4 +25,6 @@ class Translation(object):
     
 1. Send me any Telegram File.
 2. Reply to that message with /rename NEWNAME.EXTENSION"""
+    ABOUT_USER="""I AM RENAME BOT MADE BY TEAM
+   <a href="t.me/Zed1Projctz"> ZED1PROJECTZ</a>"""   
 
