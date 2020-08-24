@@ -1,7 +1,7 @@
 class Translation(object):
-    START_TEXT = """ Hello *{}*
-     I AM RENAME BOT TO KNOW WHEN I AM 
-     OFFLINE OR ONLINE JOIN MY SUPPORT CHANNEL"""
+    START_TEXT = """ <b>Hello BRUH🙏 NAMASKARAM OR NAMASTHE🙏
+     I AM RENAME BOT TO KNOW MY UPDATION
+      JOIN MY SUPPORT CHANNEL</b>"""
 
 
     RENAME_403_ERR = "What Are You Doing?"
