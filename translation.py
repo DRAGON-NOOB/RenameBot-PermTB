@@ -31,5 +31,4 @@ class Translation(object):
     
 1. Send me any Telegram File.
 2. Reply to that message with /rename NEWNAME.EXTENSION"""
-   ABOUT_TEXT= """I AM RENAME BOT CREATE BY @Zed1Projctz
-                JOIN MY SUPPORT CHANNEL"""
+    ABOUT_TEXT = """Enthelum add akkada macha"""
