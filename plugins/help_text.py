@@ -57,10 +57,10 @@ async def start(bot, update):
     )
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["upgrade"]))
-async def upgrade(bot, update):
+@pyrogram.Client.on_message(pyrogram.Filters.command(["about"]))
+async def about(bot, update):
     # logger.info(update)
-    TRChatBase(update.from_user.id, update.text, "/upgrade")
+    TRChatBase(update.from_user.id, update.text, "/about")
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.UPGRADE_TEXT,
