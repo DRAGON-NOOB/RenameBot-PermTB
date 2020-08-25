@@ -31,18 +31,18 @@ class Translation(object):
     
 1. Send me any Telegram File.
 2. Reply to that message with /rename NEWNAME.EXTENSION"""
-    ABOUT_TEXT = """⭕️My Name : Renamer
+    ABOUT_TEXT = """⭕️<b>My Name :</b> Renamer
 
-⭕️Created : @Zid1Projctz
+⭕️<b>Created :</b> @Zed1Projctz
 
-⭕️Credits : Everyone in this journey
+⭕️<b>Credits :</b> Everyone in this journey
 
-⭕️Language : Python3
+⭕️<b>Language :</b> Python3
 
-⭕️Library : Pyrogram asyncio 0.16.1 
+⭕️<b>Library :</b> Pyrogram asyncio 0.16.1 
 
-⭕️Source Code : 👉 Click Here 
+⭕️<b>Source Code :</b> 👉 <a href='t.me/nokkiirunnoippokittum'>Click Here</a> 
 
-⭕️Server : Heroku 
+⭕️<b>Server :</b> Heroku 
 
-⭕️Build Status : v1.4[Beta]"""
+⭕️<b>Build Status :</b> v1.4[Beta]"""
