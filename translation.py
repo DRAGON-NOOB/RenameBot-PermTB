@@ -12,7 +12,7 @@ class Translation(object):
 
     RENAME_403_ERR = "What Are You Doing?"
     ABS_TEXT = "What Are You Trying To Do,Mate?"
-    UPGRADE_TEXT = "CONTACT @jack_of_tg"
+    
     DOWNLOAD_START = "<b>⚡Downloading to my server⚡</b>"
     UPLOAD_START = "<b> ⌛Uplaoding to tg⌛"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry WTF Do You Think! I'll Upload It?"
@@ -32,3 +32,11 @@ class Translation(object):
 1. Send me any Telegram File.
 2. Reply to that message with /rename NEWNAME.EXTENSION"""
     
+ABOUT_TEXT= """⭕️My Name : Renamer
+⭕️<b>Created :</b> @Zid1Projctz
+⭕️<b>Credits :</b> Everyone in this journey
+⭕️<b>Language :</b> Python3
+⭕️<b>Library :</b> Pyrogram asyncio 0.16.1 
+⭕️<b>Source Code :</b> 👉 <a href='t.me/nokkiirunnoippokittum'>Click Here</a> 
+⭕️<b>Server :</b> Heroku 
+⭕️<b>Build Status :</b> v1.4[Beta]"""
