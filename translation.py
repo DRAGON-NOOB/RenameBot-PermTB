@@ -31,4 +31,18 @@ class Translation(object):
     
 1. Send me any Telegram File.
 2. Reply to that message with /rename NEWNAME.EXTENSION"""
-    ABOUT_TEXT = """Enthelum add akkada macha"""
+    ABOUT_TEXT = """⭕️My Name : Renamer
+
+⭕️Created : @Zid1Projctz
+
+⭕️Credits : Everyone in this journey
+
+⭕️Language : Python3
+
+⭕️Library : Pyrogram asyncio 0.16.1 
+
+⭕️Source Code : 👉 Click Here 
+
+⭕️Server : Heroku 
+
+⭕️Build Status : v1.4[Beta]"""
