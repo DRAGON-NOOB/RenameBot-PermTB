@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """ <b>I'm A Simple File Renamer Bot With Permanent Thumbnail support!</b>
+    START_TEXT = """ <b>Iam A Simple File Renamer Bot With Permanent Thumbnail support!</b>
 
 <b>Send me any Telegram file and reply to that file with /rename NewName.extn</b>
 
@@ -31,4 +31,18 @@ class Translation(object):
     
 1. Send me any Telegram File.
 2. Reply to that message with /rename NEWNAME.EXTENSION"""
-    
+    ABOUT_TEXT = """⭕️<b>My Name :</b> Renamer
+
+⭕️<b>Created :</b> @Zed1Projctz
+
+⭕️<b>Credits :</b> Everyone in this journey
+
+⭕️<b>Language :</b> Python3
+
+⭕️<b>Library :</b> Pyrogram asyncio 0.16.1 
+
+⭕️<b>Source Code :</b> 👉 <a href='t.me/nokkiirunnoippokittum'>Click Here</a> 
+
+⭕️<b>Server :</b> Heroku 
+
+⭕️<b>Build Status :</b> v1.4[Beta]"""

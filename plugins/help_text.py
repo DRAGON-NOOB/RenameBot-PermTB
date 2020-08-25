@@ -69,3 +69,15 @@ async def upgrade(bot, update):
         disable_web_page_preview=True
     )
     
+    
+@pyrogram.Client.on_message(pyrogram.Filters.command(["about"]))
+async def start(bot, update):
+    # logger.info(update)
+    TRChatBase(update.from_user.id, update.text, "/about")
+    await bot.send_message(
+        chat_id=update.chat.id,
+        text=Translation.ABOUT_TEXT,
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕SUPPORT CHANNEL⭕", url="t.me/Zed1Projctz")]]),
+        reply_to_message_id=update.message_id
+    )    
+  
