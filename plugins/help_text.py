@@ -58,7 +58,7 @@ async def start(bot, update):
 
     
 @pyrogram.Client.on_message(pyrogram.Filters.command(["about"]))
-async def start(bot, update):
+async def About(bot, update):
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/about")
     await bot.send_message(
