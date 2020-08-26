@@ -41,7 +41,7 @@ async def rename_doc(bot, update):
             chat_id=update.chat.id,
             message_ids=update.message_id,
             revoke=True
-bot.get_chat_member(''@Zed1Projctz" chat_id)
+
 except UserNotParticipant:
 If edit_message=
 
