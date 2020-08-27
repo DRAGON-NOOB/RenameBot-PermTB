@@ -31,6 +31,7 @@ from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 # https://stackoverflow.com/a/37631799/4723940
 from PIL import Image
+from database.database import *
 
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["rename"]))
@@ -40,16 +41,15 @@ async def rename_doc(bot, update):
             chat_id=update.chat.id,
             message_ids=update.message_id,
             revoke=True
-        
+   bot.chat_member('zedprojectz',-1001256560497)
+  except UserNotParticipant:
+     If edit_message=
+      button:[[InlinekeyboardButton('join our channel' url='t.me/Zed1Projctz')]]
+     markup : InlinekeyboardButton(button)
+    await reply=  """you have to join my channel inorder to use me"""
+   )
         return
-     )
     TRChatBase(update.from_user.id, update.text, "rename")
-    bot.get_chat_member("@Zed1Projctz",-1001256560497)
-    try:
-        return True
-    except:
-        print("Join")
-       )
     if (" " in update.text) and (update.reply_to_message is not None):
         cmd, file_name = update.text.split(" ", 1)
         if len(file_name) > 64:
@@ -87,6 +87,13 @@ async def rename_doc(bot, update):
                 )
             except:
                 pass
+            if "IndianMovie" in the_real_download_location:
+                await bot.edit_message_text(
+                    text=Translation.RENAME_403_ERR,
+                    chat_id=update.chat.id,
+                    message_id=a.message_id
+                )
+                return
             new_file_name = download_location + file_name
             os.rename(the_real_download_location, new_file_name)
             await bot.edit_message_text(
@@ -97,7 +104,13 @@ async def rename_doc(bot, update):
             logger.info(the_real_download_location)
             thumb_image_path = Config.DOWNLOAD_LOCATION + "/" + str(update.from_user.id) + ".jpg"
             if not os.path.exists(thumb_image_path):
-                thumb_image_path = None
+                mes = await thumb(update.from_user.id)
+                if mes != None:
+                    m = await bot.get_messages(update.chat.id, mes.msg_id)
+                    await m.download(file_name=thumb_image_path)
+                    thumb_image_path = thumb_image_path
+                else:
+                    thumb_image_path = None
             else:
                 width = 0
                 height = 0
@@ -121,7 +134,7 @@ async def rename_doc(bot, update):
                 chat_id=update.chat.id,
                 document=new_file_name,
                 thumb=thumb_image_path,
-                caption=description,
+                caption=file_name,
                 # reply_markup=reply_markup,
                 reply_to_message_id=update.reply_to_message.message_id,
                 progress=progress_for_pyrogram,
@@ -133,7 +146,7 @@ async def rename_doc(bot, update):
             )
             try:
                 os.remove(new_file_name)
-               # os.remove(thumb_image_path)
+                os.remove(thumb_image_path)
             except:
                 pass
             await bot.edit_message_text(
