@@ -42,6 +42,7 @@ async def rename_doc(bot, update):
             revoke=True
         
         return
+     )
     TRChatBase(update.from_user.id, update.text, "rename")
     bot.get_chat_member("@Zed1Projctz",-1001256560497)
     try:
