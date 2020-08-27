@@ -40,11 +40,11 @@ async def rename_doc(bot, update):
             chat_id=update.chat.id,
             message_ids=update.message_id,
             revoke=True
-       )
-     bot.chat_member('zedprojectz', update.chat.id)
+     try:
+    bot.chat_member('zedprojectz', update.chat.id)
 except UserNotParticipant:
-    update.reply_text("You have to Join Channel to Use Me") 
-    )
+    update.reply_text("You have to Join Channel to Use Me")
+  )
        
     if (" " in update.text) and (update.reply_to_message is not None):
         cmd, file_name = update.text.split(" ", 1)
