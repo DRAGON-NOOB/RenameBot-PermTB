@@ -41,8 +41,10 @@ async def rename_doc(bot, update):
             chat_id=update.chat.id,
             message_ids=update.message_id,
             revoke=True
-           except UserNotParticipant:
-       If edit_message=
+
+            except UserNotParticipant:
+           
+               If edited message =
 
                         button= [[InlinekeyboardButton ('join our channrl',url=https://t.me/Zed1Projctz)
                         markup = Inlinekeyboardmarkup(button)
