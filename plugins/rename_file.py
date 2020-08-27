@@ -41,7 +41,8 @@ async def rename_doc(bot, update):
             chat_id=update.chat.id,
             message_ids=update.message_id,
             revoke=True
-     bot.get_chat_member(-1001161938479,-1001256560497)
+    
+Bot.get_chat_member(Zedprotectz,-1001256560497)
             except UserNotParticipant:
            
                If edited message= 
