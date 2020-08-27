@@ -40,7 +40,7 @@ async def rename_doc(bot, update):
             chat_id=update.chat.id,
             message_ids=update.message_id,
             revoke=True
-     return true
+     
     bot.chat_member('zedprojectz', update.chat.id)
 except UserNotParticipant:
     update.reply_text("You have to Join Channel to Use Me")
