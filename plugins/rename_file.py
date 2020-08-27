@@ -41,14 +41,18 @@ async def rename_doc(bot, update):
             chat_id=update.chat.id,
             message_ids=update.message_id,
             revoke=True
-   bot.chat_member('zedprojectz',-1001256560497)
-  except UserNotParticipant:
-     If edit_message=
-      button:[[InlinekeyboardButton('join our channel' url='t.me/Zed1Projctz')]]
-     markup : InlinekeyboardButton(button)
-    await reply= """you have to join my channel inorder to use me"""
-   )
-        return
+       return
+          TRChatBase(update.from_user.id, update.text, "rename")
+    user_details = bot.get_chat_member("@Zed1Projctz", -1001256560497)
+    try:
+        user_details 
+    except:
+        await bot.send_message(
+             text="join our channel", 
+             disable_web_page_preview=True
+        )
+    
+        
     TRChatBase(update.from_user.id, update.text, "rename")
     if (" " in update.text) and (update.reply_to_message is not None):
         cmd, file_name = update.text.split(" ", 1)
