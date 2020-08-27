@@ -41,7 +41,7 @@ async def rename_doc(bot, update):
             chat_id=update.chat.id,
             message_ids=update.message_id,
             revoke=True
-   bot.chat_member('zedprojectz,-1001256560497)
+   bot.chat_member('zedprojectz',-1001256560497)
   except UserNotParticipant:
      If edit_message=
       button:[[InlinekeyboardButton('join our channel' url='t.me/Zed1Projctz')]]
