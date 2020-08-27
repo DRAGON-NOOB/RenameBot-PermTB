@@ -40,14 +40,7 @@ async def rename_doc(bot, update):
             chat_id=update.chat.id,
             message_ids=update.message_id,
             revoke=True
-        )
-        return
-    TRChatBase(update.from_user.id, update.text, (["rename"])
-    user_details=bot.get_chat_member("@Zed1Projctz", -1001256560497)
-    try:
-        user_details
-    except:
-        print("Join")
+     check_status = await client.get_members
        
     if (" " in update.text) and (update.reply_to_message is not None):
         cmd, file_name = update.text.split(" ", 1)
